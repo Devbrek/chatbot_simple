@@ -17,10 +17,10 @@ export default function Home() {
   } = useChat();
 
   return (
-    <main className="max-w-xl mx-auto p-4 min-h-screen flex flex-col">
+    <main className="max-w-xl mx-auto p-4 min-h-screen flex flex-col w-2xl">
       <h1 className="text-2xl font-bold mb-4">Chatbot</h1>
 
-      <div className="border p-4 h-96 overflow-y-auto mb-4 space-y-2">
+      <div className=" p-4 h-96 overflow-y-auto mb-4 space-y-2 bg-black/10 border-2 border-black">
         {messages.map((msg) => (
           <div key={msg.id}>
             <strong>{msg.role}:</strong> {msg.content}
