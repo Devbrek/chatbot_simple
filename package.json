@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@langchain/core": "^1.1.39",
+    "@langchain/mistralai": "^1.0.7",
     "@mistralai/mistralai": "^2.2.0",
     "@types/dotenv": "^6.1.1",
     "class-variance-authority": "^0.7.1",
